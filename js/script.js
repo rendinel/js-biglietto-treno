@@ -6,13 +6,9 @@ var priceKmAge = 0;
 
 if (age < 17){
   priceKmAge = priceKm - ((priceKm / 100) * 20)
-}
-
-if (age > 65){
+} else if (age > 65){
   priceKmAge = priceKm - ((priceKm / 100) * 40)
-}
-
-if (17 < age < 65){
+} if (17 < age < 65){
   priceKmAge = priceKm
 }
 
