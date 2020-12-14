@@ -12,7 +12,7 @@ if (age > 65){
   priceKmAge = priceKm - ((pricekm / 100) * 40)
 }
 
-if (17 < age > 65){
+if (17 < age < 65){
   priceKmAge = pricekm
 }
 
